@@ -14,7 +14,7 @@
 }
 
 .background {
-    background: black;
+    background: wheat;
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -57,12 +57,12 @@ align-items: center;
    border-radius: 9px;
 }
 .firstsection {
-    background-color: green;
+    background-color: red;
     height: 400px;
 }
 
 .secondsection {
-    background-color:blue;
+    background-color:green;
     height: 400px;
 }
 
@@ -70,7 +70,7 @@ align-items: center;
     display:flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(189, 135, 135);
     max-width: 80%;
     margin: auto;
     height: 80%;
@@ -123,11 +123,12 @@ width: 30%;
 
 }
 .section {
+    background-color: red;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content:center;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 .section-left {
