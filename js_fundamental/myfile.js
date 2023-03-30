@@ -44,15 +44,31 @@
    // console.log("odd");
  //}
 
-function search() {
-   let number = document.getElementById("search").value
+//function search() {
+  // let number = document.getElementById("search").value
 
-   if(number%2 ==0) {
-      alert("hellow this is even " + number)
-   }else {
-      alert("hellow this is odd " + number)
-   }
+//    if(number%2 ==0) {
+//      alert("hellow this is even " + number)
+//    }else {
+//       alert("hellow this is odd " + number)
+//    }
+// }
+
+
+
+let numbers =[2,9,11,7,5,3,4,8,15,18,24,28,32]
+
+
+for (let k=0; k <= numbers.length  ;k++){
+
+   if(numbers[k]%2 ==0) {
+      console.log("hellow this is even " + numbers[k])
+    }
+
 }
+
+ 
+
 
  
  
