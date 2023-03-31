@@ -56,16 +56,25 @@
 
 
 
-let numbers =[2,9,11,7,5,3,4,8,15,18,24,28,32]
+//let numbers =[2,9,11,7,5,3,4,8,15,18,24,28,32]
 
 
-for (let k=0; k <= numbers.length  ;k++){
+//for (let k=0; k <= numbers.length  ;k++){
 
-   if(numbers[k]%2 ==0) {
-      console.log("hellow this is even " + numbers[k])
-    }
+   //if(numbers[k]%2 ==0) {
+      //console.log("hellow this is even " + numbers[k])
+    //}
 
-}
+//}
+
+let fletter=["Ncesh","Vuyo","Zola","Bulela"]
+for (let z=1; fletter.length ;z++) {
+  if(fletter[z])
+  console.log(fletter[z].charAt(1))
+     }
+     
+
+ 
 
  
 
