@@ -67,11 +67,15 @@
 
 //}
 
-let fletter=["Ncesh","Vuyo","Zola","Bulela"]
-for (let z=1; fletter.length ;z++) {
-  if(fletter[z])
-  console.log(fletter[z].charAt(1))
-     }
+//let fletter=["Ncesh","Vuyo","Zola","Bulela"]
+//for (let z=1; fletter.length ;z++) {
+ // if(fletter[z])
+ // console.log(fletter[z].charAt(1))
+    // }
+
+
+
+
      
 
  
