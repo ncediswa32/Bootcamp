@@ -8,7 +8,7 @@
     //if(c<16){
         //console.log("it is cold,wear jacket")
     //}
-    //else if (c>=16 && c < 21){
+   // else if (c>=16 && c < 21){
         //console.log("it is warm,wear T-shirt & Jeans");
     //}
     //else{
@@ -17,8 +17,19 @@
 //} 
 //convertT(50)
 
+function submit(){
+    let number = document.getElementById("search").value;
+    
+let c =(number-32)* 5/9;
+    if(c<16){
+        alert("it is cold,wear jacket");
+    }
+    else if (c>=16 && c < 21){
+        alert("it is warm,wear T-shirt & Jeans");
+    }
+    else{
+        alert("it is hot,wear shorts");
+    }
 
+}
 
-
- 
- 
