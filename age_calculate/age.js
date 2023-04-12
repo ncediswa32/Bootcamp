@@ -11,19 +11,24 @@
 
 //}
 //console.log(agecult(2020))
-
 function search(){
   let years = document.getElementById("search").value;
 
   let age =(2023-years);
   
-  if  (age < 0)
-      alert("age cannot be negetive")
+if (!years) {
+
+     alert("Enter year born")
+  }
       else if (age >= 0) 
       alert(age)
-    else if('bornyear')
-    alert("Enter year born")
-   
+    else if(age<0)
+    alert("Age can't be a negetive")
+}  
   
-  }
+  
+
+
+
+
 

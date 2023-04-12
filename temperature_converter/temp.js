@@ -18,17 +18,20 @@
 //convertT(50)
 
 function submit(){
-    let number = document.getElementById("search").value;
+   // let number = document.getElementById("search").value;
     
 let c =(number-32)* 5/9;
-    if(c<16){
-        alert("it is cold,wear jacket");
+if(!number) result.innerHTML("results")
+else if (c<-273.15)result.innerHTML=("it can not be cold")
+
+    else if(c<16){
+        result.innerHTML(c+""+""+""+"it's cold,you might wear a jacket");
     }
     else if (c>=16 && c < 21){
-        alert("it is warm,wear T-shirt & Jeans");
+        result.innerHTML("it is warm,wear T-shirt & Jeans");
     }
     else{
-        alert("it is hot,wear shorts");
+        result.innerHTML("it is hot,wear shorts");
     }
 
 }
