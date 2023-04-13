@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("pexels-photo-1162251.jpeg");
+    background-color: aqua;
     height: 100vh;
 }
 .button {

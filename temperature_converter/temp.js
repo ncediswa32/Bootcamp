@@ -18,21 +18,29 @@
 //convertT(50)
 
 function submit(){
-   // let number = document.getElementById("search").value;
-    
-let c =(number-32)* 5/9;
-if(!number) result.innerHTML("results")
-else if (c<-273.15)result.innerHTML=("it can not be cold")
+let numbr = document.getElementById("search").value
+let c =(numbr-32)* 5/9;
 
-    else if(c<16){
-        result.innerHTML(c+""+""+""+"it's cold,you might wear a jacket");
+results = document.getElementById("results")
+results.innerHTML = c
+    
+
+
+if(!numbr) results.innerHTML = ("enter value")
+else if(isNaN(numbr)) results.innerHTML = ("enter value")
+
+
+else if (c < -273.15)results.innerHTML = ("it can not be this cold");
+
+else if(c<16){
+        results.innerHTML = (c+" "+"it's cold,carry a jacket");
     }
-    else if (c>=16 && c < 21){
-        result.innerHTML("it is warm,wear T-shirt & Jeans");
+else if (c>=16 && c <21){
+        results.innerHTML = (c+" "+"it is warm,wear T-shirt & Jeans");
     }
-    else{
-        result.innerHTML("it is hot,wear shorts");
-    }
+ else if(c>21)
+        results.innerHTML = (c+" "+"it is hot,wear shorts");
+    
 
 }
 

@@ -18,18 +18,31 @@
 
 
 
-
+//let show=getElementById("image")
 
  let images=[
     "img1.jpg",
     "img2.jpg",
     "img3.jpg",
+    "img4.jpg",
+    "img5.jpg",
+    "img6.jpg",
+    
 ]
 
 let img = document.getElementById("image")
+let current=0
+
+//let current = 0;
+function add(){
+    
+    let Img = document.getElementById("img").value;
+    images.push(Img)
+    //document.getElementById()
+}
 
 
-let current=0;
+
 
 function next(){
 
@@ -58,3 +71,33 @@ function prev(){
     img.src = images[current];
     
 }
+
+// function add (){
+//     let img = document.getElementById("image").value;
+//     images.push(img)
+//     console.log(img)
+    //document.getElementById()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function Slideshow() {
+    const [index, setIndex] = React.useState(0);
+    const timeoutRef = React.useRef(null);
+    
+    function resetTimeout() {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+      }  }*/

@@ -23,7 +23,7 @@ if (!years) {
       else if (age >= 0) 
       alert(age)
     else if(age<0)
-    alert("Age can't be a negetive")
+   alert("Age can't be a negetive")
 }  
   
   
