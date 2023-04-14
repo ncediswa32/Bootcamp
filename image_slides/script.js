@@ -39,6 +39,8 @@ function add(){
     let Img = document.getElementById("img").value;
     images.push(Img)
     //document.getElementById()
+ 
+
 }
 
 
@@ -71,6 +73,25 @@ function prev(){
     img.src = images[current];
     
 }
+
+
+ let pictures = [
+           "img1.jpg",
+           "img2.jpg",
+           "img3.jpg",
+           "img4.jpg",
+           "img5.jpg",
+           "img6.jpg",
+ ]
+ localStorage.setItem("img",JSON.stringify(pictures))
+//localStorage.getItem("img")
+    
+
+
+
+
+
+
 
 // function add (){
 //     let img = document.getElementById("image").value;
